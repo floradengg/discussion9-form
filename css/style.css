@@ -1,5 +1,9 @@
   /* Create an accessible color palette using var()function */
   /* https://www.w3schools.com/css/css3_variables.asp */
+
+  body{
+    font-family: Open Sans;
+  }
   
   form {
     display: grid;
@@ -10,15 +14,16 @@
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #702082;
-    background: #CFC096;
+    font-size: x-large;
+    color: black;
+    background: #cfebb6;
   }
 
   .radio {
     grid-column-start: 1;
     grid-column-end: 3;
     /* background: #575294; */
-    color: #702082;
+    color: black;
   }
 
   #name {
@@ -26,8 +31,8 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background: #CFC096;
-    color: #9B9A6D;
+    background: white;
+    color: black;
   }
 
   #message {
@@ -56,3 +61,13 @@
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .skip a {
+    position: absolute;
+    top: -40px;
+  }
+
+  .skip a:focus {
+    top: 20px;
+  }
+  
